@@ -1,12 +1,48 @@
-# React + Vite
+# 📝 Kanban Task Management Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive **Kanban-style task management application** that allows users to create boards, manage tasks, track progress with subtasks, and organize workflows seamlessly.  
 
-Currently, two official plugins are available:
+Built with **React, Redux, TailwindCSS**, and enhanced with **Drag and Drop API** for smooth task movement.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Boards
+- Switch between multiple boards from the sidebar.  
+- Create, edit, and delete boards with confirmation prompts.  
+- Each board supports multiple customizable columns.  
+
+### 🔹 Columns
+- Boards require at least one column before tasks can be added.  
+- Add new columns via the **Edit Board** modal.  
+- Removing a column deletes all tasks inside it.  
+
+### 🔹 Tasks
+- Create, read, update, and delete tasks with full form validation.  
+- Each task can have multiple subtasks that can be marked as complete.  
+- Tasks automatically move between columns when status is updated.  
+- Supports drag-and-drop task reordering between columns for a smooth workflow.  
+
+### 🔹 UI/UX
+- Responsive layout optimized for **desktop, tablet, and mobile**.  
+- Hover states for all interactive elements.  
+- Sidebar can be toggled (show/hide) for distraction-free mode.  
+
+---
+
+## 🎯 Bonus Features
+- ✅ Drag & drop tasks between columns  
+- ✅ Subtask completion tracking  
+- ✅ Persistent state management with Redux  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** [React](https://react.dev/)  
+- **State Management:** [Redux](https://redux.js.org/)  
+- **Styling:** [TailwindCSS](https://tailwindcss.com/)  
+- **Drag & Drop:** [HTML Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)  
+
+---
