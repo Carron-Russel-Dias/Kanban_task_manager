@@ -30,6 +30,9 @@ Built with **React, Redux, TailwindCSS**, and enhanced with **Drag and Drop API*
 - Sidebar can be toggled (show/hide) for distraction-free mode.  
 
 ---
+## Screenshot
+<img width="800" height="800" src="Screenshot 2025-10-18 022757.png">
+
 
 ## 🎯 Bonus Features
 - ✅ Drag & drop tasks between columns  
